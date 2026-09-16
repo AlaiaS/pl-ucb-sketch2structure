@@ -1,7 +1,7 @@
 {
-  "uuid": "REPLACE ME WITH A VALID UUID by running uuidgen in a shell",
-  "name": "CS170",
-  "title": "Efficient Algorithms and Intractable Problems",
+  "uuid": "C2C37F34-86EA-4E40-A3F0-1A1DDC41319A",
+  "name": "Sketch2Trace",
+  "title": "Freehand diagram assessments for EECS/K-12 Math",
   "options": {
     "useNewQuestionRenderer": true
   },
@@ -12,7 +12,11 @@
       "color": "orange2",
       "description": "Templates to copy as the start for a new question."
     },
-    { "name": "Algebra", "color": "red3", "description": "Basic algebra." },
+    {
+      "name": "Algebra",
+      "color": "red3",
+      "description": "Basic algebra."
+    },
     {
       "name": "Calculus",
       "color": "yellow3",
@@ -53,7 +57,11 @@
       "color": "brown3",
       "description": "Matrix math."
     },
-    { "name": "Test", "color": "gray3", "description": "Feature examples." },
+    {
+      "name": "Test",
+      "color": "gray3",
+      "description": "Feature examples."
+    },
     {
       "name": "Names",
       "color": "red2",
@@ -78,15 +86,36 @@
       "description": "Quiz, Midterm, and Final Questions",
       "assessment": true
     },
-
-    { "name": "quiz", "color": "pink1", "description": "Exam level." },
-    { "name": "midterm", "color": "pink2", "description": "Exam level." },
-    { "name": "final", "color": "pink3", "description": "Exam level." },
-
-    { "name": "easy", "color": "blue1", "description": "Difficulty." },
-    { "name": "medium", "color": "blue2", "description": "Difficulty." },
-    { "name": "hard", "color": "blue3", "description": "Difficulty." },
-
+    {
+      "name": "quiz",
+      "color": "pink1",
+      "description": "Exam level."
+    },
+    {
+      "name": "midterm",
+      "color": "pink2",
+      "description": "Exam level."
+    },
+    {
+      "name": "final",
+      "color": "pink3",
+      "description": "Exam level."
+    },
+    {
+      "name": "easy",
+      "color": "blue1",
+      "description": "Difficulty."
+    },
+    {
+      "name": "medium",
+      "color": "blue2",
+      "description": "Difficulty."
+    },
+    {
+      "name": "hard",
+      "color": "blue3",
+      "description": "Difficulty."
+    },
     {
       "name": "blank",
       "color": "orange2",
@@ -117,7 +146,6 @@
       "color": "purple2",
       "description": "Element: Drop-down select menu list."
     },
-
     {
       "name": "alpha",
       "color": "green1",
@@ -136,14 +164,12 @@
       "description": "Instructor has blessed the question and can now be released to students.",
       "status": true
     },
-
     {
       "name": "ddgarcia",
       "color": "brown1",
       "description": "This question was originally written by Dan Garcia (ddgarcia@berkeley.edu)",
       "author": true
     },
-
     {
       "name": "berkeley",
       "color": "blue3",
