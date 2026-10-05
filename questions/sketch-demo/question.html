@@ -1,0 +1,19 @@
+<pl-question-panel>
+  <p>Sketch \(f(x) = 2^x\) from \(x = -1\) to \(x = 2\), using the fixed points as a guide.</p>
+  <p>Add exactly one horizontal line at \(y = 0\) to mark the horizontal asymptote.</p>
+</pl-question-panel>
+
+<pl-sketch answers-name="sketch-example" x-range="-1,2" y-range="-1,5">
+  <pl-sketch-tool id="fd" type="free-draw"></pl-sketch-tool>
+  <pl-sketch-tool id="hl" type="horizontal-line"></pl-sketch-tool>
+  <pl-sketch-tool id="pt" type="point" read-only="true"></pl-sketch-tool>
+  <pl-sketch-initial tool-id="pt" coordinates="(-1,0.5)"></pl-sketch-initial>
+  <pl-sketch-initial tool-id="pt" coordinates="(0,1)"></pl-sketch-initial>
+  <pl-sketch-initial tool-id="pt" coordinates="(1,2)"></pl-sketch-initial>
+  <pl-sketch-initial tool-id="pt" coordinates="(2,4)"></pl-sketch-initial>
+  <pl-sketch-grade type="match" tool-id="hl" y="0"></pl-sketch-grade>
+  <pl-sketch-grade type="count" tool-id="hl" count="1"></pl-sketch-grade>
+  <pl-sketch-grade type="match-function" tool-id="fd" function="2**x"></pl-sketch-grade>
+  <pl-sketch-solution tool-id="fd" function="2**x"></pl-sketch-solution>
+  <pl-sketch-solution tool-id="hl" coordinates="0"></pl-sketch-solution>
+</pl-sketch>
